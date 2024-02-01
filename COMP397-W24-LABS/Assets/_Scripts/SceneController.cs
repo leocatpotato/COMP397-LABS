@@ -9,4 +9,8 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+    public void ChangeSceneByName(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
 }
