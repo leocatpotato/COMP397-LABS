@@ -25,12 +25,12 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""cced21f4-95d5-46b7-9edb-6176f1d4db3a"",
+            ""id"": ""1b9239c3-b228-47c8-be98-45c42330ae83"",
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""Value"",
-                    ""id"": ""b550143f-8f29-4cc9-93f2-f05ebd19dd6a"",
+                    ""id"": ""a4120c5e-23b6-444c-9acc-6e32330760e5"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -39,7 +39,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Look"",
                     ""type"": ""Value"",
-                    ""id"": ""f0a5d822-42f5-44fd-a1b2-b6e679d64bfb"",
+                    ""id"": ""b01b5e91-73ae-4f60-9818-6418ef921bfc"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -48,7 +48,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Fire"",
                     ""type"": ""Button"",
-                    ""id"": ""4a54e1aa-caa2-478a-a526-2bb5b8bc7132"",
+                    ""id"": ""97054fa9-a260-421a-a2a6-f82b798ab5ae"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -57,7 +57,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Jump"",
                     ""type"": ""Button"",
-                    ""id"": ""3076ce46-61ec-4ea3-8e72-2ec49d81bb22"",
+                    ""id"": ""0af30e45-3e78-45d1-b6d5-8a93cee09e2f"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -66,11 +66,20 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Camera"",
                     ""type"": ""Value"",
-                    ""id"": ""1fd18905-88da-4d0c-a9f6-5d5108f80b78"",
+                    ""id"": ""81612895-bc98-45d4-a9c2-f9ed5d8a5cb6"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""bf736ca3-1065-41cb-93b6-0d116c8b1a2f"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -296,8 +305,8 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""0430b583-cc87-4afd-9b7a-ea586eaed9c7"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""id"": ""b990bd4d-7084-4773-ab2d-585544621fa6"",
+                    ""path"": ""<Keyboard>/j"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
@@ -307,7 +316,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""0a33c810-9e89-4c7d-a2dd-7417977805df"",
+                    ""id"": ""be6b51c8-fd13-4ef4-8855-47e0a4c03a04"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -318,7 +327,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""1D Axis"",
-                    ""id"": ""a46fddb8-fc19-436f-94ac-54f4f3cc34df"",
+                    ""id"": ""e74da3c7-13ed-405b-9f69-e6a85a74faa9"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -329,7 +338,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""negative"",
-                    ""id"": ""202b6588-d7e3-4bf3-a8c9-3d6b0de4d0b6"",
+                    ""id"": ""d914fa51-af67-4752-ac6b-c0578edbbc02"",
                     ""path"": ""<Keyboard>/q"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -340,7 +349,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""negative"",
-                    ""id"": ""571d984f-a628-4c9f-a468-66ef5d8a1b65"",
+                    ""id"": ""b40bdfbb-4210-41e2-ac89-87640b05181a"",
                     ""path"": ""<Gamepad>/leftShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -351,7 +360,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""positive"",
-                    ""id"": ""95ea1ed2-450f-41e5-ac48-99f8f6dae33f"",
+                    ""id"": ""f608a4a5-b22c-4b21-9424-027111c592d0"",
                     ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -362,7 +371,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""positive"",
-                    ""id"": ""584909a4-4fdb-42cc-ba89-a629e4359e8b"",
+                    ""id"": ""8df3efb4-cf3e-4aea-b03f-4b4638adbd18"",
                     ""path"": ""<Gamepad>/rightShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -370,6 +379,28 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
                     ""action"": ""Camera"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1a1669b3-9c8b-476e-9050-0b125a4cd01d"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1d3f366c-1091-467b-9da5-adc575928d53"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -444,6 +475,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Camera = m_Player.FindAction("Camera", throwIfNotFound: true);
+        m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -510,6 +542,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Camera;
+    private readonly InputAction m_Player_Pause;
     public struct PlayerActions
     {
         private @COMP397W24LABS m_Wrapper;
@@ -519,6 +552,7 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Camera => m_Wrapper.m_Player_Camera;
+        public InputAction @Pause => m_Wrapper.m_Player_Pause;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -543,6 +577,9 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
             @Camera.started += instance.OnCamera;
             @Camera.performed += instance.OnCamera;
             @Camera.canceled += instance.OnCamera;
+            @Pause.started += instance.OnPause;
+            @Pause.performed += instance.OnPause;
+            @Pause.canceled += instance.OnPause;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -562,6 +599,9 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
             @Camera.started -= instance.OnCamera;
             @Camera.performed -= instance.OnCamera;
             @Camera.canceled -= instance.OnCamera;
+            @Pause.started -= instance.OnPause;
+            @Pause.performed -= instance.OnPause;
+            @Pause.canceled -= instance.OnPause;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -631,5 +671,6 @@ public partial class @COMP397W24LABS: IInputActionCollection2, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnCamera(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
 }
