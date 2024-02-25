@@ -1069,6 +1069,7 @@ GameObject:
   - component: {fileID: 1293818861}
   - component: {fileID: 1293818860}
   - component: {fileID: 1293818859}
+  - component: {fileID: 1293818862}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -1163,6 +1164,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293818857}
   m_CullTransparentMesh: 1
+--- !u!114 &1293818862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293818857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf90e750cd13e74187ea3c9389aa345, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menuBtn: {fileID: 1959854582}
+  _menuSceneName: Menu
 --- !u!1 &1405531757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,17 +1539,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28487caab116b0e449185abd832dd9a7, type: 3}
---- !u!114 &1714521342 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1432663133772806487, guid: 28487caab116b0e449185abd832dd9a7, type: 3}
-  m_PrefabInstance: {fileID: 1714521341}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 714a210d194bfd446bf82f1461096d24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1744415741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,19 +1755,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1959854583}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1714521342}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: ChangeSceneByName
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Menu
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1959854583
 MonoBehaviour:
   m_ObjectHideFlags: 0
