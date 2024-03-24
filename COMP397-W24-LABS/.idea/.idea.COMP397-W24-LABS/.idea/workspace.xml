@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2dc0ebe1-aca5-4901-9cc1-db158aa67d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.COMP397-W24-LABS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.COMP397-W24-LABS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyPrototype.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RandomPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RandomPrototype.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerShooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerShooter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ProceduralGeneration/RandomGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/ProceduralGeneration/RandomGeneration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +22,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AudioAsset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/AbstractLocationFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Location/LocationGrass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/LocationFactory/FactoryGrass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ObjectPooling/GenericPoolManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ObjectPooling/PooledProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ProceduralGeneration/PerlinNoise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -111,6 +120,8 @@
       <workItem from="1708482007515" duration="452000" />
       <workItem from="1709685655577" duration="4515000" />
       <workItem from="1710284623444" duration="7220000" />
+      <workItem from="1710888814229" duration="6038000" />
+      <workItem from="1710895266539" duration="1252000" />
     </task>
     <servers />
   </component>
