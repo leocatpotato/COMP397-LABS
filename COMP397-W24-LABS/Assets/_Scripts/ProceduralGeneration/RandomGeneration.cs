@@ -13,8 +13,6 @@ public class RandomGeneration : MonoBehaviour
   [SerializeField] private float _offsetY;
 
   private GameObject[,] _map;
-  private Dictionary<string, AbstractLocationFactory> _locationFactories = 
-    new Dictionary<string, AbstractLocationFactory>();
 
   private void Start()
   {
@@ -22,7 +20,6 @@ public class RandomGeneration : MonoBehaviour
     _map = new GameObject[_width, _depth];
     _offsetX = Random.Range(1000, 5000);
     _offsetY = Random.Range(-5000, -1000);
-    _locationFactories["Grass"] = new FactoryGrass();
     GeneratePerlinMap();
   }
 
@@ -96,7 +93,6 @@ public class RandomGeneration : MonoBehaviour
         break;
       case <= 0.75f:
         material = _tileMaterials[2];
-        _locationFactories["Grass"].CreateLocation();
         go.name += " Grass";
         break;
       default:

@@ -6,11 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="2dc0ebe1-aca5-4901-9cc1-db158aa67d13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.COMP397-W24-LABS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.COMP397-W24-LABS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Factories.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Factories/FactoryGrass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Factories/FactoryGrass.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyPrototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RandomPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RandomPrototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerShooter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerShooter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/AbstractLocationFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/AbstractLocationFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/ILocation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/ILocation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Location.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Location/LocationGrass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Location/LocationGrass.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/LocationFactory.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/LocationFactory/FactoryGrass.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/LocationFactory/FactoryGrass.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/PlayerStatsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/PlayerStatsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ProceduralGeneration/RandomGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/ProceduralGeneration/RandomGeneration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/SaveGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/SaveGameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +37,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AudioAsset.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/AbstractLocationFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Location/LocationGrass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/LocationFactory/FactoryGrass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Agent/AbstractAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/ComedianBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Transport/BoatFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Transport/CarFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/FactoryDesign/Transport/ConcreteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ObjectPooling/GenericPoolManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ObjectPooling/PooledProjectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -122,6 +139,7 @@
       <workItem from="1710284623444" duration="7220000" />
       <workItem from="1710888814229" duration="6038000" />
       <workItem from="1710895266539" duration="1252000" />
+      <workItem from="1711492641909" duration="8620000" />
     </task>
     <servers />
   </component>

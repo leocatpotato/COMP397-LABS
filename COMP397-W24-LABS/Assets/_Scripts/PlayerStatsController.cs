@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PlayerStatsController : MonoBehaviour, IObserver
 {
-  [SerializeField] private Subject _playerSubject;
+  [SerializeField] private PlayerController _playerSubject;
   [SerializeField] private int _playerHealth = 3;
 
   void Awake()
   {
     _playerSubject = 
       GameObject.FindGameObjectWithTag("Player").
-      GetComponent<Subject>();
+      GetComponent<PlayerController>();
   }
   void OnEnable()
   {
@@ -46,5 +46,11 @@ public class PlayerStatsController : MonoBehaviour, IObserver
   public void SaveGameIntoFile()
   {
     SaveGameManager.Instance().SaveGame(_playerSubject.transform);
+  }
+  public void LoadGameFromFile()
+  {
+    var playerData = SaveGameManager.Instance().LoadGame();
+    Vector3 position = JsonUtility.FromJson<Vector3>(playerData.position);
+    _playerSubject.MovePlayer(position);
   }
 }

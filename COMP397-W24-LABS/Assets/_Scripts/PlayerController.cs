@@ -88,10 +88,14 @@ public class PlayerController : Subject
     {
         if (other.CompareTag("death"))
         {
-            _controller.enabled = false;
-            transform.position = _respawn.position;
-            _controller.enabled = true;
+            MovePlayer(_respawn.position);
             NotifyObservers(PlayerEnums.Died);
         }
+    }
+    public void MovePlayer(Vector3 position)
+    {
+        _controller.enabled = false;
+        transform.position = position;
+        _controller.enabled = true;
     }
 }
